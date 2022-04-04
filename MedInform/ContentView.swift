@@ -10,7 +10,7 @@ import UserNotifications
 
 struct ContentView: View {
     var body: some View {
-        Text("Weclome to MedInform")
+        Text("Welcome to MedInform. This app is used to benefit your medical needs. You will get reminders to take your medications and what medications to take.")
             .padding()
         
         VStack {
