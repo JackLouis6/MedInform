@@ -9,9 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Welcome to MedInform. This app is used to benefit your medical needs. You will get reminders to take your medications and what medications to take.")
+        Text("Welcome to MedInform. This app will be used to benefit your medical needs. You will get reminders to take your medications and what medications to take.")
             .padding()
-            .font(.bold)
     }
 }
 
