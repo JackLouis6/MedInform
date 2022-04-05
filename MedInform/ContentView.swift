@@ -10,6 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Welcome to MedInform. This app will be used to benefit your medical needs. You will get reminders to take your medications and what medications to take.")
+            .font(.body)
+            .fontWeight(.heavy)
+            .foregroundColor(Color.black)
+            .multilineTextAlignment(.center)
             .padding()
     }
 }
