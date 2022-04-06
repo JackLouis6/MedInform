@@ -14,7 +14,7 @@ struct ContentView: View {
             .fontWeight(.heavy)
             .foregroundColor(Color.black)
             .multilineTextAlignment(.center)
-            .padding()
+            .padding(2.0)
     }
 }
 
