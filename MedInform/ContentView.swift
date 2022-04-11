@@ -15,6 +15,11 @@ struct ContentView: View {
             .foregroundColor(Color.black)
             .multilineTextAlignment(.center)
             .padding(2.0)
+        
+        NavigationLink(destination: Reminder(), label: {
+            Text("Reminder")
+        })
+        
     }
 }
 
