@@ -14,10 +14,10 @@
 		3F14D26B27F600E4007544B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14D26A27F600E4007544B7 /* Preview Assets.xcassets */; };
 		3F14D27627F600E4007544B7 /* MedInformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D27527F600E4007544B7 /* MedInformTests.swift */; };
 		3F14D28127F600E4007544B7 /* MedInformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D28027F600E4007544B7 /* MedInformUITests.swift */; };
+		3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F150F18280F10D400C178F5 /* LocationManager.swift */; };
 		3F1D3F6527FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F1D3F6627FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F1D3F6727FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
-		3F82240D27FB471300AEAA14 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82240C27FB471300AEAA14 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		3F14D27C27F600E4007544B7 /* MedInformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedInformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F14D28027F600E4007544B7 /* MedInformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedInformUITests.swift; sourceTree = "<group>"; };
 		3F14D28227F600E4007544B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F150F18280F10D400C178F5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F82240C27FB471300AEAA14 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +103,11 @@
 		3F14D26227F600DF007544B7 /* MedInform */ = {
 			isa = PBXGroup;
 			children = (
-				3F14D26327F600DF007544B7 /* MedInformApp.swift */,
-				3F14D26527F600DF007544B7 /* ContentView.swift */,
 				3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */,
+				3F14D26327F600DF007544B7 /* MedInformApp.swift */,
+				3F150F18280F10D400C178F5 /* LocationManager.swift */,
+				3F14D26527F600DF007544B7 /* ContentView.swift */,
 				3F0BD46B27FB4C1700DB5A7E /* InformationView.swift */,
-				3F82240C27FB471300AEAA14 /* Reminder.swift */,
 				3F14D26727F600E4007544B7 /* Assets.xcassets */,
 				3F14D26C27F600E4007544B7 /* Info.plist */,
 				3F14D26927F600E4007544B7 /* Preview Content */,
@@ -273,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F82240D27FB471300AEAA14 /* Reminder.swift in Sources */,
 				3F0BD46C27FB4C1700DB5A7E /* InformationView.swift in Sources */,
+				3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */,
 				3F14D26627F600DF007544B7 /* ContentView.swift in Sources */,
 				3F14D26427F600DF007544B7 /* MedInformApp.swift in Sources */,
 			);
