@@ -33,8 +33,7 @@ struct MapView: View {
             }
         }
         .onAppear(perform: {
-            performSearch(item: "Urgrent Care")
-            performSearch(item: "Emergency Room")
+            performSearch(item: "fitness center")
         })
     }
     
@@ -61,7 +60,7 @@ struct Marker: View {
     var body: some View {
         if let url = mapItem.url {
             Link(destination: url, label: {
-                Image("redcross")
+                Image("dumbell")
             })
         }
     }

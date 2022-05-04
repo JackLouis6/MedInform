@@ -16,6 +16,7 @@
 		3F14D28127F600E4007544B7 /* MedInformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D28027F600E4007544B7 /* MedInformUITests.swift */; };
 		3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F150F18280F10D400C178F5 /* LocationManager.swift */; };
 		3F195DCE28202EBB001A1C61 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F195DCD28202EBB001A1C61 /* SwiftyJSON.swift */; };
+		3F195DD028203043001A1C61 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F195DCF28203043001A1C61 /* Temp.swift */; };
 		3F1D3F6527FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F1D3F6627FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F1D3F6727FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
@@ -55,6 +56,7 @@
 		3F14D28227F600E4007544B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F150F18280F10D400C178F5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		3F195DCD28202EBB001A1C61 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3F195DCF28203043001A1C61 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F26293A28184660002A8806 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 				3F195DCD28202EBB001A1C61 /* SwiftyJSON.swift */,
 				3F26293A28184660002A8806 /* MapView.swift */,
 				3F150F18280F10D400C178F5 /* LocationManager.swift */,
+				3F195DCF28203043001A1C61 /* Temp.swift */,
 				3F0BD46B27FB4C1700DB5A7E /* InformationView.swift */,
 				3F14D26727F600E4007544B7 /* Assets.xcassets */,
 				3F14D26C27F600E4007544B7 /* Info.plist */,
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F195DD028203043001A1C61 /* Temp.swift in Sources */,
 				3F0BD46C27FB4C1700DB5A7E /* InformationView.swift in Sources */,
 				3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */,
 				3F26293B28184660002A8806 /* MapView.swift in Sources */,
