@@ -33,7 +33,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Exercises")
-        }
+    }
         .onAppear(perform: {
             getExercises()
         })
@@ -50,7 +50,7 @@ struct ContentView: View {
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
-                let contents = json["content"].arrayValue
+                let contents = json.arrayValue
                 for item in contents {
                     let bodyPart = item["bodyPart"].stringValue
                     let equipment = item["equipment"].stringValue
