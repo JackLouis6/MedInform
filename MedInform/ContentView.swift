@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-
+                HStack {
                 NavigationLink(destination: ExerciseView(), label: {
                     Text("Exercise Database")
                         .bold()
@@ -19,6 +19,8 @@ struct ContentView: View {
                         .background(Color.gray)
                         .foregroundColor(.white)
                         .cornerRadius(10)
+                        .padding()
+                        .position(x: 110, y: 75)
                 })
                 
                 NavigationLink(destination: MapView(), label: {
@@ -28,10 +30,12 @@ struct ContentView: View {
                         .background(Color.gray)
                         .foregroundColor(.white)
                         .cornerRadius(10)
+                        .padding()
+                        .position(x: 90, y: 75)
                 })
 
+                }
             }
-            
             .navigationTitle("Welcome to FitInform")
             
             .background(

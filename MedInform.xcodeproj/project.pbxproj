@@ -22,6 +22,7 @@
 		3F1D3F6727FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F26293B28184660002A8806 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26293A28184660002A8806 /* MapView.swift */; };
 		3F4818F82828A91500003C38 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4818F72828A91500003C38 /* ExerciseView.swift */; };
+		3FEDBE6D28296DE100359129 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDBE6C28296DE100359129 /* GifView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F26293A28184660002A8806 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3F4818F72828A91500003C38 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		3FEDBE6C28296DE100359129 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		3F14D26927F600E4007544B7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3FEDBE6C28296DE100359129 /* GifView.swift */,
 				3F14D26A27F600E4007544B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F4818F82828A91500003C38 /* ExerciseView.swift in Sources */,
+				3FEDBE6D28296DE100359129 /* GifView.swift in Sources */,
 				3F195DD028203043001A1C61 /* Temp.swift in Sources */,
 				3F0BD46C27FB4C1700DB5A7E /* InformationView.swift in Sources */,
 				3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */,

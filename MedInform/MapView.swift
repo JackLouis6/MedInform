@@ -32,6 +32,7 @@ struct MapView: View {
                 Marker(mapItem: place.mapItem)
             }
         }
+        .ignoresSafeArea()
         .onAppear(perform: {
             performSearch(item: "fitness center")
         })
