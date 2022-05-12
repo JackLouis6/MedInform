@@ -22,7 +22,8 @@
 		3F1D3F6727FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F26293B28184660002A8806 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26293A28184660002A8806 /* MapView.swift */; };
 		3F4818F82828A91500003C38 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4818F72828A91500003C38 /* ExerciseView.swift */; };
-		3FEDBE6D28296DE100359129 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDBE6C28296DE100359129 /* GifView.swift */; };
+		3FE9BB33282C7E46008534A9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9BB32282C7E46008534A9 /* SplashScreen.swift */; };
+		3FEC02A32829FF960048E3B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC02A22829FF960048E3B6 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +63,8 @@
 		3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F26293A28184660002A8806 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3F4818F72828A91500003C38 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
-		3FEDBE6C28296DE100359129 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		3FE9BB32282C7E46008534A9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		3FEC02A22829FF960048E3B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +117,9 @@
 			children = (
 				3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */,
 				3F14D26327F600DF007544B7 /* MedInformApp.swift */,
+				3FE9BB32282C7E46008534A9 /* SplashScreen.swift */,
 				3F14D26527F600DF007544B7 /* ContentView.swift */,
+				3FEC02A22829FF960048E3B6 /* HomeView.swift */,
 				3F4818F72828A91500003C38 /* ExerciseView.swift */,
 				3F195DCD28202EBB001A1C61 /* SwiftyJSON.swift */,
 				3F26293A28184660002A8806 /* MapView.swift */,
@@ -132,7 +136,6 @@
 		3F14D26927F600E4007544B7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3FEDBE6C28296DE100359129 /* GifView.swift */,
 				3F14D26A27F600E4007544B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -288,8 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE9BB33282C7E46008534A9 /* SplashScreen.swift in Sources */,
+				3FEC02A32829FF960048E3B6 /* HomeView.swift in Sources */,
 				3F4818F82828A91500003C38 /* ExerciseView.swift in Sources */,
-				3FEDBE6D28296DE100359129 /* GifView.swift in Sources */,
 				3F195DD028203043001A1C61 /* Temp.swift in Sources */,
 				3F0BD46C27FB4C1700DB5A7E /* InformationView.swift in Sources */,
 				3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */,

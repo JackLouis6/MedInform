@@ -22,13 +22,14 @@ struct ExerciseView: View {
                 if let url = URL(string: exercise.gifUrl) {
                     Link(destination: url) {
                         HStack {
-                            Text(exercise.bodyPart)
-                            Text("-")
-                            Text(exercise.equipment)
-                            Text("-")
                             Text(exercise.gifUrl)
+                                .frame(height: 70)
+                            VStack {
+                            Text(exercise.bodyPart)
+                            Text(exercise.equipment)
                             Text(exercise.name)
                             Text(exercise.target)
+                            }
                         }
                     }
                 }
