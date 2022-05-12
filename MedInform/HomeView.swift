@@ -10,15 +10,15 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView {
+            ContentView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
             ExerciseView()
                 .tabItem {
                     Image(systemName: "heart")
                     Text("Exercises")
-                }
-            HomeView()
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
                 }
             MapView()
                 .tabItem {

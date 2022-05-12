@@ -14,7 +14,7 @@ struct SplashScreen: View {
     
     var body: some View {
         if isActive {
-            ContentView()
+            HomeView()
         } else {
             VStack {
                 Image("Logo")
@@ -24,14 +24,14 @@ struct SplashScreen: View {
                     .scaleEffect(x: CGFloat(size), y: CGFloat(size), anchor: .center)
                     .opacity(opacity)
                     .onAppear {
-                        withAnimation(.easeIn(duration: 2.0)) {
+                        withAnimation(.easeIn(duration: 2.5)) {
                             self.size = 1.0
                             self.opacity = 1.0
                         }
                     }
             }
             .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                     withAnimation {
                         self.isActive = true
                     }
