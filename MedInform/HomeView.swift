@@ -15,15 +15,15 @@ struct HomeView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
-            ExerciseView()
+            QuoteView()
                 .tabItem {
-                    Image(systemName: "heart")
-                    Text("Exercises")
+                    Image(systemName: "book.closed")
+                    Text("Quote")
                 }
             MapView()
                 .tabItem {
                     Image(systemName: "map")
-                    Text("Map")
+                    Text("Breakfast Map")
                 }
         }
     }

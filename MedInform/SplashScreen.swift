@@ -17,21 +17,21 @@ struct SplashScreen: View {
             HomeView()
         } else {
             VStack {
-                Image("Logo")
+                Image("SunriseLogo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 250, height: 250, alignment: .center)
                     .scaleEffect(x: CGFloat(size), y: CGFloat(size), anchor: .center)
                     .opacity(opacity)
                     .onAppear {
-                        withAnimation(.easeIn(duration: 2.5)) {
+                        withAnimation(.easeIn(duration: 3.0)) {
                             self.size = 1.0
                             self.opacity = 1.0
                         }
                     }
             }
             .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                     withAnimation {
                         self.isActive = true
                     }

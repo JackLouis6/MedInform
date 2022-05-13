@@ -34,7 +34,8 @@ struct MapView: View {
         }
         .ignoresSafeArea()
         .onAppear(perform: {
-            performSearch(item: "fitness center")
+            performSearch(item: "coffee")
+            performSearch(item: "breakfast")
         })
     }
     
@@ -61,7 +62,7 @@ struct Marker: View {
     var body: some View {
         if let url = mapItem.url {
             Link(destination: url, label: {
-                Image("dumbell")
+                Image("breakfast")
             })
         }
     }

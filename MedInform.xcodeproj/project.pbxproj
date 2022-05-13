@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F087782282E304E00BB30A1 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F087781282E304E00BB30A1 /* QuoteView.swift */; };
 		3F0BD46C27FB4C1700DB5A7E /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BD46B27FB4C1700DB5A7E /* InformationView.swift */; };
 		3F14D26427F600DF007544B7 /* MedInformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D26327F600DF007544B7 /* MedInformApp.swift */; };
 		3F14D26627F600DF007544B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D26527F600DF007544B7 /* ContentView.swift */; };
@@ -20,7 +21,6 @@
 		3F1D3F6627FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F1D3F6727FDE8B700930E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */; };
 		3F26293B28184660002A8806 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26293A28184660002A8806 /* MapView.swift */; };
-		3F4818F82828A91500003C38 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4818F72828A91500003C38 /* ExerciseView.swift */; };
 		3FE9BB33282C7E46008534A9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9BB32282C7E46008534A9 /* SplashScreen.swift */; };
 		3FE9BB35282C95E5008534A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE9BB34282C95E5008534A9 /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F087781282E304E00BB30A1 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		3F0BD46B27FB4C1700DB5A7E /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		3F14D26027F600DF007544B7 /* MedInform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedInform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F14D26327F600DF007544B7 /* MedInformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedInformApp.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		3F195DCD28202EBB001A1C61 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		3F1D3F6427FDE8B700930E44 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F26293A28184660002A8806 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		3F4818F72828A91500003C38 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		3FE9BB32282C7E46008534A9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		3FE9BB34282C95E5008534A9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +118,7 @@
 				3FE9BB32282C7E46008534A9 /* SplashScreen.swift */,
 				3F14D26527F600DF007544B7 /* ContentView.swift */,
 				3FE9BB34282C95E5008534A9 /* HomeView.swift */,
-				3F4818F72828A91500003C38 /* ExerciseView.swift */,
+				3F087781282E304E00BB30A1 /* QuoteView.swift */,
 				3F26293A28184660002A8806 /* MapView.swift */,
 				3F195DCD28202EBB001A1C61 /* SwiftyJSON.swift */,
 				3F150F18280F10D400C178F5 /* LocationManager.swift */,
@@ -289,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE9BB33282C7E46008534A9 /* SplashScreen.swift in Sources */,
-				3F4818F82828A91500003C38 /* ExerciseView.swift in Sources */,
+				3F087782282E304E00BB30A1 /* QuoteView.swift in Sources */,
 				3FE9BB35282C95E5008534A9 /* HomeView.swift in Sources */,
 				3F0BD46C27FB4C1700DB5A7E /* InformationView.swift in Sources */,
 				3F150F19280F10D400C178F5 /* LocationManager.swift in Sources */,
