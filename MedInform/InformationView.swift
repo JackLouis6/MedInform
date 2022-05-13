@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InformationView: View {
     var body: some View {
-        Text("Welcome to MedInform! This app is used to accomadate your health needs. It will remind you when to take your medications and what medications you should take.")
+        Text("Welcome to FitInform! This app is used to give you demonstrations of certain exercises and the locations of the nearest gyms in your area. You can also set reminders of when you want to conduct your exercises")
     }
 }
 
