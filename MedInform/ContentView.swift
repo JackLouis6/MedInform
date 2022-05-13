@@ -28,10 +28,10 @@ struct ContentView: View {
                              })
     }
     
-    func greeting() -> String {
+    func statement() -> String {
         var message = ""
-        let morningStart = Calendar.current.date(bySettingHour: 4, minute: 00, second: 0, of: date)!
-        let morningEnd = Calendar.current.date(bySettingHour: 11, minute: 59, second: 59, of: date)!
+        let morningStart = Calendar.current.date(bySettingHour: 5, minute: 00, second: 0, of: date)!
+        let morningEnd = Calendar.current.date(bySettingHour: 12, minute: 00, second: 00, of: date)!
         //        let evening = Calendar.current.date(bySettingHour: <#T##Int#>, minute: <#T##Int#>, second: <#T##Int#>, of: <#T##Date#>)
         
         if ((date >= morningStart) && (morningEnd >= date)) {
@@ -48,7 +48,7 @@ struct ContentView: View {
                 .font(.system(size:50))
                 .bold()
                 .padding()
-            Text(greeting())
+            Text(statement())
                 .multilineTextAlignment(.center)
                 .font(.system(size:35))
                 .font(.title3)
