@@ -18,7 +18,7 @@ struct HomeView: View {
             QuoteView()
                 .tabItem {
                     Image(systemName: "book.closed")
-                    Text("Quote")
+                    Text("Fact of the Day")
                 }
             MapView()
                 .tabItem {

@@ -14,18 +14,21 @@ struct QuoteView: View {
     var body: some View {
         NavigationView {
             List(quotes) { quote in
-                        HStack {
-                            Text(quote.fact)
+                VStack {
+                    Text(quote.fact)
+                        .padding()
+                    Image("thinkercopy")
+                        .frame(width: 350, height: 375, alignment: .center)
                 }
             }
-            .navigationTitle("Quote of the Day")
+            .navigationTitle("Fact of the Day")
         }
         .onAppear(perform: {
             getQuotes()
         })
         .alert(isPresented: $showingAlert, content: {
             Alert(title: Text("Loading Error"),
-                  message: Text("There was a problem loading the Quote"),
+                  message: Text("There was a problem loading the quote"),
                   dismissButton: .default(Text("OK")))
         })
     }
@@ -36,15 +39,10 @@ struct QuoteView: View {
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
-                if json["response"] == "success" {
-                    let contents = json.arrayValue
-                    for item in contents {
-                        let fact = item["Fact"].stringValue
-                        let quote = Quote(fact: fact)
-                        quotes.append(quote)
-                    }
-                    return
-                }
+                let fact = json["Fact"].stringValue
+                let quote = Quote(fact: fact)
+                quotes.append(quote)
+                return
             }
         }
         showingAlert = true

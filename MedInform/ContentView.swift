@@ -23,7 +23,7 @@ struct ContentView: View {
     
     var updateTimer: Timer {
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true,
-                             block: {_ in
+                             block: { _ in
                                 self.date = Date()
                              })
     }
@@ -32,6 +32,7 @@ struct ContentView: View {
         var message = ""
         let morningStart = Calendar.current.date(bySettingHour: 4, minute: 00, second: 0, of: date)!
         let morningEnd = Calendar.current.date(bySettingHour: 11, minute: 59, second: 59, of: date)!
+        //        let evening = Calendar.current.date(bySettingHour: <#T##Int#>, minute: <#T##Int#>, second: <#T##Int#>, of: <#T##Date#>)
         
         if ((date >= morningStart) && (morningEnd >= date)) {
             message = "Good morning!"
@@ -42,19 +43,18 @@ struct ContentView: View {
     }
     
     var body: some View {
-            VStack {
-                Text("\(timeString(date: date))")
-                    .font(.system(size:50))
-                    .bold()
-                    .padding()
-                Text(greeting())
-                    .multilineTextAlignment(.center)
-                    .font(.system(size:35))
-                    .font(.title3)
-                    .padding()
-                    
-                    .onAppear(perform: {let _ = self.updateTimer})
-                        
+        VStack {
+            Text("\(timeString(date: date))")
+                .font(.system(size:50))
+                .bold()
+                .padding()
+            Text(greeting())
+                .multilineTextAlignment(.center)
+                .font(.system(size:35))
+                .font(.title3)
+                .padding()
+                
+                .onAppear(perform: {let _ = self.updateTimer})
         }
     }
 }
